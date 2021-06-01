@@ -124,9 +124,8 @@ public void setFechaHoraSalida2(String salida2){
 
 
 public String toStringSalida(){
- return "Hora de salida ["+salida2+"]";
+ return "Hora de salida ["+getFechaHoraSalida2()+"]";
 }
-
 
 
 public long tiempoTotal(){

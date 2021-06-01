@@ -184,7 +184,7 @@ String eleccion2 = scan.next();
      if(eleccion2.equalsIgnoreCase("Continuar")){
       Sensor.sensores[piso3][espacio3] = new Sensor(0);
       System.out.println("Operación realizada con éxito. El sensor seleccionado está libre ahora.");
-      System.out.println(Vehiculo.vehiculos[piso3][espacio3].toStringSalida());
+      System.out.println(Sensor.sensores[piso3][espacio3].toStringSalida());
          
              if(Vehiculo.vehiculos[piso3][espacio3].verTipoVehiculo().equalsIgnoreCase("Carro")){ 
                  Vehiculo carro;
